@@ -2,5 +2,5 @@ errors.log
 error.log
 console.log
 *.lnk
-local/
+localData/
 apps/local/
