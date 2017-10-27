@@ -1,0 +1,6 @@
+errors.log
+error.log
+console.log
+*.lnk
+local/
+apps/local/

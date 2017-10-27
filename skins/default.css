@@ -1,0 +1,20 @@
+body{background:black;color:red}
+.appTabs{position:absolute;top:0;left:0;background:silver;color:black}
+.appTab{border-top:1px solid black;border-left:1px solid black;border-right:1px solid black;background:lightgreen;color:blue;cursor:pointer}
+.appTab sup{background:red;border:1px solid black;color:yellow}
+.appTab.appFocused{border:none;background:green;color:red}
+.appTab.appNewTab{background:lime;color:darkblue}
+.appContainer{position:absolute;left:0;right:0;top:0;bottom:0}
+.appContent{position:absolute;left:0;right:0;top:0;bottom:0;background:green;color:black}
+.appScroll{overflow:auto}
+pre.error{width:100%;overflow:auto}
+.button{cursor:pointer}
+.appNote{border:1px solid black;background:white}
+.appNoteImportant{border:1px solid black;background:yellow}
+.appNoteUnimportant{border:1px solid black;background:silver}
+
+#loginForm{background:white;color:black}
+#loginForm input{position:relative}/*voodoo*/
+
+.chatHeadB{font-weight:bold}
+.chatB{font-style:italic}
