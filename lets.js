@@ -1,7 +1,7 @@
 /* lets...
 collaborative environment for Windows Network Shared Folders
 
-requires Quasic repos wshta, jsformat, and dom
+requires Quasic repos wshta, jsformat, and dom clones to be in the same parent folder as the lets clone
 
 Copyright (C) Quasic on GitHub
 This program is free software: you can redistribute it and/or modify
