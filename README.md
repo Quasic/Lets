@@ -6,6 +6,8 @@ I made Lets before I knew that I could use shared databases in WSH without runni
 
 User choice powered the system, but you always knew what everyone was doing. To make the determinism less boring, I added a synchronized PRNG, which was enough for a feeling of unknown, even though it was predictable. I also developed a commit scheme, which was better at adding unknowns.
 
+The day I added this sentence, I discovered I am using CmRDT (operation-based conflict-free replicated data types) in here. [I often find my discoveries were mapped long ago. Haha.]
+
 ## Limitations 
 I designed this for public access to log and status files, at least for reading. Setting permissions for private access files was not often done, due to increased complexity and decreased reliability. The only way to handle temporary secrets in public was a commitment scheme. I intend to include a revised version of the scheme eventually. It is based on pre-committing to help bind the actual commit to a single meaningful secret without losing security.
 
